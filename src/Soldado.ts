@@ -3,7 +3,7 @@ export class Soldado {
     private _vida: number = 0 ;
     constructor(
         id: string
-    ) {this._id = id; this._vida = 100;}
+    ) {this._id = id; this._vida = 1;}
 
     getId(): string {
         return this._id;

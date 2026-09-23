@@ -14,5 +14,6 @@ describe (Soldado, () => {
         S01.disparar(S02);
         expect(S01.disparar(S02)).toBe("Disparo realizado");
         expect(S02.recibirDisparo()).toBe("Disparo recibido");
+        expect(S02.estaVivo).toBe(false);
     })
 });

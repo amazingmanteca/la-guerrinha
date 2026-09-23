@@ -11,5 +11,11 @@
   "include": [
     "src/**/*.ts",
     "tests/**/*.ts"
-  ]
+  ],
+  "devDependencies": {
+    "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
 }
